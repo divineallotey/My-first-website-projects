@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript">
+<!-->
+var image1=new Image()
+image1.src="file:///C:/Users/mercy/Desktop/download%20(1).jpg"
+var image2=new Image()
+image2.src="file:///C:/Users/mercy/Desktop/fifa%2017.jpg"
+var image3=new Image()
+image3.src="file:///C:/Users/mercy/Desktop/download%20(1).jpg"
+//-->
+</script>
+</head>
+<body>
+<img src="file:///C:/Users/mercy/Desktop/download%20(1).jpg" name="slide" width="400" height="400">
+<div class="navBulletsWrapper"><div rel="0" class="active">1</div><div rel="1" class="">2</div><div rel="2" class="">3</div><div rel="3" class="">4</div><div rel="4" class="">5</div></div>
+<script type="text/javascript">
+<!--
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<3)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script>
+</body>
+</html> 

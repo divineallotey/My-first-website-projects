@@ -1,0 +1,1 @@
+alert("divine says Hi")
